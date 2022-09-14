@@ -1,0 +1,32 @@
+:root {
+  --master-text-color: #212121;
+  --slave-text-color: #757575;
+  --accent-site-color: #2196f3;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  color: var(--master-text-color);
+}
+
+.header-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+
+.half-logo {
+  color: var(--accent-site-color);
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
