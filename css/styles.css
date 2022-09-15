@@ -84,7 +84,7 @@ body {
 }
 
 .benefit-title {
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -100,7 +100,7 @@ body {
 
 .process-title,
 .team-title {
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
