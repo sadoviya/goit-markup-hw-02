@@ -4,22 +4,33 @@
   --accent-site-color: #2196f3;
 }
 
-/* ------ tag selector start ------ */
-
 body {
   font-family: "roboto", sans-serif;
   color: var(--master-text-color);
 }
 
-ul {
+/* ul {
   list-style: none;
-}
+} */
 
-a {
+/* a {
+  text-decoration: none;
+} */
+
+.link,
+.header-logo,
+.footer-logo {
   text-decoration: none;
 }
 
-/* ------ tag selector end ------ */
+.list {
+  list-style: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-site-color);
+}
 
 .header-logo {
   font-family: "Raleway";
