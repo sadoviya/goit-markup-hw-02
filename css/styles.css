@@ -4,10 +4,22 @@
   --accent-site-color: #2196f3;
 }
 
+/* ------ tag selector start ------ */
+
 body {
   font-family: "roboto", sans-serif;
   color: var(--master-text-color);
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------ tag selector end ------ */
 
 .header-logo {
   font-family: "Raleway";
@@ -83,12 +95,33 @@ body {
   color: var(--slave-text-color);
 }
 
-.process-title {
+.process-title,
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.member-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.member-alt {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--slave-text-color);
 }
 
 .footer-logo {
@@ -100,5 +133,22 @@ body {
   color: #ffffff;
 }
 
+.footer-bg {
+  background-color: #2f303a;
+}
+
+.address-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
 .footer-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
