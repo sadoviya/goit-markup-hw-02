@@ -14,21 +14,32 @@ body {
   text-decoration: none;
 }
 
-.list {
-  list-style: none;
-}
-
 .link:hover,
 .link:focus {
   color: var(--accent-site-color);
 }
 
-.btn {
-  cursor: pointer;
+.list {
+  list-style: none;
 }
 
-.current {
-  color: var(--accent-site-color);
+.btn {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--master-text-color);
+}
+
+.filter:hover,
+.filter:focus {
+  color: #ffffff;
+  background-color: var(--accent-site-color);
 }
 
 .header-logo {
@@ -52,6 +63,10 @@ body {
   color: var(--master-text-color);
 }
 
+.current {
+  color: var(--accent-site-color);
+}
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -68,21 +83,16 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
 }
 
 .hero-button {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  /* display: flex; */
-  /* align-items: center; */
-  /* text-align: center; */
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--accent-site-color);
@@ -110,7 +120,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
 }
 
@@ -118,18 +128,22 @@ body {
   background-color: #f5f4fa;
 }
 
+.card {
+  background-color: #ffffff;
+}
+
 .member-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
 }
 
 .member-alt {
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
   color: var(--slave-text-color);
 }
