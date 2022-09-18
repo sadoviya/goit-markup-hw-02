@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "roboto", sans-serif;
+  font-family: 'roboto', sans-serif;
   color: var(--master-text-color);
   background-color: var(--pure-white-color);
 }
@@ -55,7 +55,7 @@ body {
 }
 
 .header-logo {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -69,7 +69,7 @@ body {
 }
 
 .footer-logo {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
